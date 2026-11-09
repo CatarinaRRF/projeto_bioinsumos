@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="120" viewBox="0 0 440 120" role="img" aria-labelledby="title description">
+  <title id="title">Signature placeholder</title>
+  <desc id="description">Placeholder image to be replaced with the coordinator's signature.</desc>
+  <rect x="1" y="1" width="438" height="118" fill="none" stroke="#6B7B73" stroke-dasharray="6 6" stroke-width="2"/>
+  <text x="220" y="68" fill="#6B7B73" font-family="Georgia, serif" font-size="24" font-style="italic" text-anchor="middle">Signature placeholder</text>
+</svg>
