@@ -144,7 +144,8 @@ function createPhotoFrame(name, className, photo) {
   if (photo) {
     const image = document.createElement('img');
     image.alt = `Portrait of ${name}`;
-    image.src = `img/people/${photo}`;
+    const imageBase = document.documentElement.lang === 'pt-BR' ? '../img/people/' : 'img/people/';
+    image.src = `${imageBase}${photo}`;
     setupPlaceholderImage(image);
     frame.append(image);
   } else {
